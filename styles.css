@@ -98,3 +98,11 @@ a.email-link:hover {
     text-decoration: underline; /* Optional: add underline on hover */
 }
 
+.about-photo {
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: 20px auto;
+    border: 6px solid yellow;
+}

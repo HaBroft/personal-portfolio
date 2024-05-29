@@ -5,6 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #00FF00;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .project {
+            background: #1e1e1e;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        .project h3 {
+            margin-top: 0;
+        }
+        .project p {
+            margin-bottom: 10px;
+        }
+        .project a {
+            text-decoration: none;
+            color: #00FF00;
+            padding: 10px 15px;
+            border: 2px solid #00FF00;
+            border-radius: 5px;
+            transition: background 0.3s, color 0.3s;
+        }
+        .project a:hover {
+            background: #00FF00;
+            color: #121212;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -17,8 +56,16 @@
         </nav>
     </header>
     <section id="projects">
-        <h1>Projects</h1>
-        <p>This is the projects page.</p>
+        <div class="container">
+            <h1>Projects</h1>
+            <div class="project">
+                <h3>Chat Application</h3>
+                <p>A real-time chat application built with Node.js, Express, and Socket.io.</p>
+                <a href="https://dfbe-173-180-182-184.ngrok-free.app" target="_blank">Visit Chat App</a>
+                <!-- Replace http://your-public-ip:3000 with your actual public IP and port or Ngrok URL -->
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
     </section>
 </body>
 </html>
